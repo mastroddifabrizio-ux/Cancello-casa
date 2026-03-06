@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0F1623"
+    android:padding="32dp">
+
+    <!-- Icona casa / titolo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏠"
+        android:textSize="64sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#E0E0E0"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="56dp" />
+
+    <!-- Pulsante principale -->
+    <Button
+        android:id="@+id/btnCancello"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:text="@string/btn_label"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/btn_blue"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Stato operazione -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#E0E0E0"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+</LinearLayout>
